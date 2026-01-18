@@ -26,11 +26,6 @@ public sealed record Error
             ?? FrozenDictionary<string, string>.Empty;
     }
 
-    /// <summary>
-    /// Initializes a new instance of the Error class with default values.
-    /// </summary>
-    public Error() : this(null, -1, null, null) { }
-
     public string Title { get; }
 
     public int Code { get; }

@@ -24,13 +24,6 @@ public class ErrorTests
     }
 
     [Fact]
-    public void Error_Constructor_Default()
-    {
-        // Act & Assert
-        Assert.Throws<ArgumentNullException>(() => new Error());
-    }
-
-    [Fact]
     public void Error_Constructor()
     {
         // Arrange
