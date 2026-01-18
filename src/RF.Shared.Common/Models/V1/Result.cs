@@ -19,6 +19,8 @@ public class Result
 
     protected Result(Error error)
     {
+        ArgumentNullException.ThrowIfNull(error);
+
         Error = error;
         IsSuccess = false;
     }

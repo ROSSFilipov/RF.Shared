@@ -2,7 +2,7 @@
 
 namespace RF.Shared.Common.Models.V1;
 
-public readonly record struct Error
+public sealed record Error
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="Error"/> class with the specified title, code, message, and optional extensions.
