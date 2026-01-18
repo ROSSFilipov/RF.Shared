@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/RF.Shared.Common.Benchmarks/RF.Shared.Common.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/RF.Shared.Common/RF.Shared.Common.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RF.Shared.Common.Tests/RF.Shared.Common.Tests.csproj" />
+  </Folder>
+</Solution>
